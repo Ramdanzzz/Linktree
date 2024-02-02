@@ -1,0 +1,67 @@
+*, html, body {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   background-color: #010101;
+}
+
+.hero {
+   width: 100%;
+   margin-top: 15px;
+}
+
+.img-hero {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 10px;
+}
+
+.text-hero {
+   text-align: center;
+   color: #fff;
+   font-size: 1.3rem;
+}
+
+.text-hero h5 {
+   padding: 0px 5px;
+   font-size: 1.2rem;
+   text-transform: capitalize;
+   font-family: Arial;
+}
+
+.text-hero h2 {
+   font-family: Arial;
+   text-transform: capitalize;
+   font-weight: 800;
+   font-size: 2.2rem;
+   letter-spacing: 2;
+}
+
+.text-hero p {
+   font-size: .9rem;
+   text-transform: lowercase;
+   font-style: italic;
+   letter-spacing: 1;
+   padding: 5px 0px;
+}
+
+.linktree {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 0;
+}
+
+.linktree a {
+   text-decoration: none;
+   background-color: #bc1823;
+   border-radius: 5px;
+   padding: 8px 80px;
+   margin-bottom: 10px;
+   font-size: 1.5rem;
+   text-transform: capitalize;
+   color: #fff;
+   font-weight: 500;
+}
